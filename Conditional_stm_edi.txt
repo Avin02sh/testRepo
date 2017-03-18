@@ -1,0 +1,23 @@
+Public class Currentstatus{
+public Integer age;
+public String  Gender;
+
+public void getStatus(Integer age,String Gender){
+this.age=age;
+this.Gender=Gender;
+if(Gender==Male && age<=15){
+System.debug('He is a school student');
+}esle if(Gender==Male && age<=25){
+System.debug('He is a college student');
+}esle if(Gender==Male && age>=26){
+System.debug('He is a Employee');
+}esle ifif(Gender==Female && age<=15){
+System.debug('She is a school student');
+}esle if(Gender==Female && age<=25){
+System.debug('She is a college student');
+}esle if(Gender==Female && age>=26){
+System.debug('She is a Employee');
+}
+}
+
+}
